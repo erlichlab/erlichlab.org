@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Neuroscience Tutorial</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; 
+  /*text-align:justify;*/
+  }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+<style type="text/css">
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+</style>
+
+<style type="text/css">
+pre.line-numbers {
+	position: relative;
+	padding-left: 3.8em;
+	counter-reset: linenumber;
+}
+
+pre.line-numbers > code {
+	position: relative;
+}
+
+.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	font-size: 100%;
+	left: -3.8em;
+	width: 3em; /* works for line-numbers below 1000 lines */
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+	.line-numbers-rows > span {
+		pointer-events: none;
+		display: block;
+		counter-increment: linenumber;
+	}
+
+		.line-numbers-rows > span:before {
+			content: counter(linenumber);
+			color: #999;
+			display: block;
+			padding-right: 0.8em;
+			text-align: right;
+		}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">Neuroscience Tutorial</h1>
+
+<h2 id="toc_1">Brain-AI Workshop 2017</h2>
+
+<p>This document serves as an outline of some of the important differences between the mammalian brain and artificial neural networks.</p>
+
+<h3 id="toc_2">Spikes vs. Rate</h3>
+
+<ul>
+<li>Spikes are the information currency of the brain.</li>
+<li>Spikes are energetically expensive. The brain uses about 1/5 of the energy of the body.</li>
+<li>The only way for a neuron in one part of the brain to send information to a neuron in another part of the brain is by generating a spike (i.e. an action potential) which will travel along the axon and release transmitter.</li>
+<li>How do we measure spikes? 
+
+<ul>
+<li>Electrophysiology:
+
+<ul>
+<li>Single-unit recording with metal or glass electrodes. </li>
+</ul></li>
+<li>Optical imaging (indirect):
+
+<ul>
+<li>voltage sensitive dyes, Ca++ imaging</li>
+</ul></li>
+</ul></li>
+<li><p>Using mean-field approximation<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> of spiking networks, we can approximate populations of neurons using <strong>rate-based models</strong>: simple dynamical systems. E.g. 
+\[\frac{dX_i}{dt} = \frac{-X_i}{\tau} + f(W_iX_i + E_{ext} + \mathcal{N}(0,\sigma)) \]</p>
+
+<ul>
+<li>rate-models have been very popular and successful for modeling decision-making and working-memory<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup>.</li>
+<li>Tools for measuring populations of neurons:
+
+<ul>
+<li>Electrical: Multiunit, LFP, EEG, MEG</li>
+<li>fMRI: does not measure neural activity. It measure metabolism that is linked to neural activity.</li>
+<li>PET: uses radioactive isotopes. Useful for <em>in vivo</em> pharmacology.</li>
+<li>optical imaging: wide-field imaging of different sensors or intrinsic changes.</li>
+</ul></li>
+</ul></li>
+<li><p>Current controversy: <strong>rate-coding vs. phase-coding of information in the brain</strong><sup id="fnref3"><a href="#fn3" rel="footnote">3</a></sup></p>
+
+<ul>
+<li>Rhythms are all over the brain. Some brain areas show clear phase-encoding, where the spikes line up with the phase of oscillations. Seems to be important for information transmission<sup id="fnref4"><a href="#fn4" rel="footnote">4</a></sup>
+<img src="phaseprecession.jpeg" alt="phase precession"></li>
+<li>Some rhythms are really <em>clocks</em><sup id="fnref5"><a href="#fn5" rel="footnote">5</a></sup>. They have long-range phase coherence and are created by <strong>central pattern generators</strong>.
+<img src="whisking.jpeg" alt="whisking"></li>
+<li>Some rhythms are due to resonance. e.g. ringing a bell. <sup id="fnref6"><a href="#fn6" rel="footnote">6</a></sup></li>
+<li>There is still substantial debate about the importance of oscillations in cognition.</li>
+</ul></li>
+</ul>
+
+<h3 id="toc_3">Brains are stochastic</h3>
+
+<ul>
+<li>There is irreducible noise in the brain, definitely due to brownian fluctuations in proteins, maybe quantum noise.</li>
+<li>A key source of noise is due to <strong>release failure</strong>. When an action potential arrives at the terminal there is only a <a href="http://www.nature.com/nrn/journal/v10/n5/full/nrn2634.html">chance for neurotransmitter to be released.</a> </li>
+<li><strong>Noise in behavior is good</strong>. Stochastic organisms in competitive environments dominate organisms with stable strategies.<sup id="fnref7"><a href="#fn7" rel="footnote">7</a></sup></li>
+<li>Is this the brain equivalent of dropout?</li>
+</ul>
+
+<h3 id="toc_4">Vanishing/exploding gradients / <a href="http://journal.frontiersin.org/article/10.3389/fphys.2012.00163/full">criticality</a></h3>
+
+<ul>
+<li>neuron networks face same problem <a href="" title="i.e. in a living animal"><em>in vivo</em></a> and <a href="" title="i.e. in silicon"><em>in silico</em></a></li>
+<li>How do you filter/amplify/process an input in a deep or recurrent network without having that input either:
+
+<ul>
+<li>quickly die away (e.g. coma)</li>
+<li>quickly explode (e.g. epilepsy)</li>
+</ul></li>
+<li>What&#39;s the brain&#39;s solution to this? Still an open question.
+
+<ul>
+<li>Many mechanisms for normalization in both space and in time.</li>
+<li>Normalization has been demonstrated to support <a href="https://en.wikipedia.org/wiki/Horace_Barlow">optimal information transmission</a> and <a href="https://en.wikipedia.org/wiki/Normalization_model">attention</a>.</li>
+<li>Normalization <em>in time</em> included homeostatic plasticity. It&#39;s as if each neuron &quot;knows&quot; what it wants its own mean output to be. If its output is less than that set point it will increase its input weight; if its output is more than that set point it will reduce its input weights.[^homeo]</li>
+</ul></li>
+</ul>
+
+<h3 id="toc_5">Brains have multiple <em>conflicting</em> objective functions</h3>
+
+<ul>
+<li><p>Basic drives, innate behaviors &amp; <em>Unconditioned Stimuli</em>:</p>
+
+<ul>
+<li>Thirst</li>
+<li>Hunger</li>
+<li>Reproduction</li>
+<li>Fear (e.g. innate responses to predatory cues)</li>
+<li>Social (e.g. maternal care)</li>
+</ul></li>
+<li><p>Because of competing priorities, the brain must perform some functions like an operating system. Has to deal with prioritization and race conditions.</p>
+
+<ul>
+<li>Can only reach for my beer or my wings with my empty hand.</li>
+<li>Can only look at my phone or at my wife.</li>
+</ul></li>
+<li><p>Despite this, brains rarely crash! (although, people do pass out in response to trauma, pain, stress).</p></li>
+</ul>
+
+<h3 id="toc_6">Brains have a continuum of timescales</h3>
+
+<ul>
+<li>This is true for both information transmission and for plasticity. </li>
+<li>Transmission: AMPA receptors open time is a few milliseconds. NMDA receptor open time is a few hundred milliseconds. mGlur receptor activation can last for seconds.</li>
+<li>Learning: Thousands of molecules involved in learning and memory. </li>
+<li>The transformation from an &quot;immediate&quot; to &quot;short-term&quot; to &quot;long-term&quot; memory is seamless (e.g. we are not consciously aware of the transition). But we know there are distinct mechanisms at play for different time-scales.</li>
+<li>The brain also exhibits <strong>meta-plasticity</strong>. Synaptic strength (i.e. connection weights) are not characterized only by their value but also but how easy they are to change.</li>
+</ul>
+
+<h3 id="toc_7">Brains are modular recurrent networks</h3>
+
+<ul>
+<li>Evolution of brains:
+
+<ul>
+<li>reuse earlier bits. </li>
+</ul></li>
+<li>Specialization for:
+
+<ul>
+<li>rhythm generation. e.g. breathing (brainstem)</li>
+<li><strong>control system</strong> (spinal cord)</li>
+<li> spatial processing (tectum)</li>
+<li> episodic memory / navigation (hippocampus)</li>
+<li> classical conditioning (amygdala)</li>
+<li> reinforcement learning (dopamine / basal ganglia)</li>
+<li> skill learning (basal ganglia)</li>
+<li> executive function (prefrontal cortex)</li>
+</ul></li>
+<li> These specializations result in a <em>taxonomy</em> of functions subserved by different parts of the brain:</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning</th>
+<th>Module</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Episodic Memory</td>
+<td>Autobiographical memory. E.g. what you had for breakfast yesterday. Where you went to school.</td>
+<td>medial temporal lobe / acetylcholine</td>
+</tr>
+<tr>
+<td>Source Memory</td>
+<td>Knowledge about how you know something.</td>
+<td>E.g. when did you first hear about action potentials?</td>
+</tr>
+<tr>
+<td>Semantic Memory</td>
+<td>Information about the world. The president of China. The first month of the year.</td>
+<td>distributed?</td>
+</tr>
+<tr>
+<td>Procedural Memory</td>
+<td>How to do something. E.g. play the piano, ride a bike.</td>
+<td>motor cortex / basal ganglia / dopamine</td>
+</tr>
+<tr>
+<td>Emotional memory</td>
+<td>An association between a thing and a value (good or bad). Chocolate tastes good. Fire burns. A certain dog bites.</td>
+<td>Amygdala</td>
+</tr>
+<tr>
+<td>Working memory</td>
+<td>a short-term form of memory often associated with combining or integrating multiple items in memory together. E.g. doing math problem in your head, trying to count cards at a casino, finding the largest number in a list. Generally, the items in memory are discarded soon after finishing.</td>
+<td>prefrontal cortex (for longer durations, hippocampus).</td>
+</tr>
+<tr>
+<td>Spatial working memory</td>
+<td>like working memory but in particular for a location in space. e.g. when playing basketball keeping track of where the players are on the court.</td>
+<td>frontal eye field and other regions.</td>
+</tr>
+<tr>
+<td>LTP/D</td>
+<td>Long-term potentiation/depression. Changes in synaptic strength that last for more than 1 day. Requires new protein synthesis and changes to cyto-skeleton</td>
+<td></td>
+</tr>
+<tr>
+<td>STP/D</td>
+<td>Short-term potentiation/depression. Changes in synpatic strength that last for a short time (usually 30 min - a few hours)</td>
+<td></td>
+</tr>
+<tr>
+<td>Spatial Attention</td>
+<td>enhancing processing of one part of the world.</td>
+<td>frontal-parietal-tectal circuit, acetylcholine</td>
+</tr>
+<tr>
+<td>Feature Attention</td>
+<td>Focused processing on a non-spatial dimension of the world. E.g. looking for a friend in a red jacket. Focused listening of one instrument at the symphony.</td>
+<td>Depends on modality. Higher sensory cortex with PFC</td>
+</tr>
+<tr>
+<td>Overt vs. Covert attention</td>
+<td>Overt attention is externally observable. e.g. by measuring eye/head/body positions. Covert attention is not-externally observable. e.g. &quot;looking&quot; at someone out of the corner of your eye or shifting your focus from vision to hearing or touch.</td>
+<td>Depends. For switching modulality, probably thalamus.</td>
+</tr>
+<tr>
+<td>Habit</td>
+<td>an action that is performed regardless of the outcome. For example, if you eat a snack every day at 5pm, and then one day you have a huge meal at 4pm and you are really full but you still eat the snack, then it is a habit.</td>
+<td></td>
+</tr>
+<tr>
+<td>Goal-directed action</td>
+<td>opposite of habit. A behavior that is performed to achieve a goal. Generally more flexible than habits.</td>
+<td>dopamine</td>
+</tr>
+<tr>
+<td>Motivation</td>
+<td>Used to describe levels of drive. (i.e. scaling of objective functions). When we are thirsty we are motivated to get water. But once we are not thirsty the same outcome (water) has less value.</td>
+<td>dopamine, noradrenaline, opiates</td>
+</tr>
+<tr>
+<td>Behavioral inhibition</td>
+<td>e.g. self-control Ability to suppress actions based on context. E.g. you want to eat the cookie, but you are trying to lose weight, or you want your friend to have the last one</td>
+<td>prefrontal cortex, serotonin</td>
+</tr>
+<tr>
+<td>perceptual decision-making</td>
+<td>Making a decision about some physical property of an object. E.g. is that picture hanging straight? Is there a pothole in the road? Will the ping-pong ball miss the table</td>
+<td>probably secondary sensory cortex.</td>
+</tr>
+<tr>
+<td>value based decision-making</td>
+<td>also called economic or financial decision-making. Should I buy this stock? Should I ask that girl out on a date? Should I wait for the bus?  Most real decisions involve both perceptual and value-based parts.</td>
+<td>striatum / nucleus accumbens / orbital frontal cortex / dopamine</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="toc_8">Learning</h2>
+
+<p>The brain is very plastic (meaning the connection weights can be changed). 
+There is a huge amount of diversity in the learning rules in the brain. For almost every cognitive function listed above there is a corresponding learning rule.</p>
+
+<p>Why have such diverse rules? Probably to match statistics of environment. Things that don&#39;t change much should have correspondingly slow learning rates.</p>
+
+<p>We know a lot about the molecular mechanisms of learning. Probably the best studied feature of the brain.</p>
+
+<h3 id="toc_9">Local Learning</h3>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Hebbian_theory">Hebbian Plasticity</a>: Neurons that fire together wire together.</li>
+<li>Spike-Timing Dependent Plasticity.<br>
+<img src="stdp2.jpg" alt="STDP"></li>
+</ul>
+
+<h3 id="toc_10">Global Learning</h3>
+
+<ul>
+<li>Dopamine release from the ventral tegmental area is a global learning signal. It seems to be a reward prediction error.<br>
+<img src="da-rpe.png" width=400></li>
+<li>Dopamine is a gate for plasticity in other parts of the brain, so synapses that were active just before the dopamine release will get strengthened.<sup id="fnref8"><a href="#fn8" rel="footnote">8</a></sup></li>
+</ul>
+
+<h3 id="toc_11">Supervised Learning</h3>
+
+<ul>
+<li>Observational learning: songbird system. Young male listens and remembers father&#39;s song (or other tutor). Sings to himself and tries to match against remembered song.</li>
+<li>Instructional learning: e.g. this tutorial</li>
+<li>Multi-modal calibration: using vision as a teaching signal for the motor system. This process is constant through out life. 
+
+<ul>
+<li>Necessary for adapting flexibly to different environments (walking, running, swimming) and situations (carrying something, after injury) and during development.</li>
+</ul></li>
+<li>This kind of learning can happen very quickly. Especially if motivation/attention is high. </li>
+<li>Some forms of supervised learning have a critical period.</li>
+</ul>
+
+<h3 id="toc_12">Unsupervised learning</h3>
+
+<ul>
+<li>Reinforcement learning (Operant or Instrumental learning) : learn the value of taking an action in a certain state.</li>
+<li>Classical conditioning (e.g. fear conditioning): learn the value of a state (action is irrelevant).</li>
+<li>This kind of learning can happen very quickly and last a life time. Especially if motivation/attention is high. With fear conditioning, a single pairing of a novel tone with a painful electric shock can general a lifelong memory of the experience.</li>
+</ul>
+
+<h3 id="toc_13">Perceptual/Statistical Learning == autoencoder</h3>
+
+<ul>
+<li>Language learning.</li>
+<li>Learning the statistics of the natural sensory world.</li>
+<li>Usually happens early in development. </li>
+<li>Critical period for plasticity.</li>
+</ul>
+
+<h3 id="toc_14">Motor Learning</h3>
+
+<ul>
+<li>sometimes supervised: e.g. you can use hearing to adjust your hand position on the guitar.</li>
+<li>sometimes unsupervised: you just get a hit/miss signal and have to explore action space.</li>
+<li>learning to perform a task: play a musical instrument, repeat a sequence, knife skills. </li>
+<li>Depending on difficulty and motivation can happen over seconds, minutes or hours. Practice, practice, practice.</li>
+</ul>
+
+<h3 id="toc_15">hierarchical learning</h3>
+
+<ul>
+<li>We organize actions into subgoals.</li>
+</ul>
+
+<h2 id="toc_16">Are modern recurrent networks (LSTM/GRU) biologically plausible?</h2>
+
+<ul>
+<li>yes.</li>
+<li>It is <em>highly</em> unlikely that one LSTM node is equivalent to one neuron (but see Hasselmo<sup id="fnref9"><a href="#fn9" rel="footnote">9</a></sup>).</li>
+<li>What&#39;s more likely is that one LSTM unit represents a subpopulation of neurons configured as a bi-stable or line attractor. It may be (wild speculation) that cortical columns are analogous to an LSTM unit.</li>
+</ul>
+
+<h2 id="toc_17">Why should be care about any of this?</h2>
+
+<ul>
+<li>The brain has evolved over millions of years of evolution. </li>
+<li>It may contain solutions to many problems of interest to the machine learning community. </li>
+<li>However, it&#39;s important to appreciate the constraints faced by the organism and the selective pressures that resulted in this particular solution to the &quot;fitness&quot; problems.</li>
+<li>Some things that constrain brains:
+
+<ul>
+<li>size (the brain is mushy... too big and it won&#39;t hold together well)</li>
+<li>speed (but not for sloth!)</li>
+<li>energy (maybe?)</li>
+<li>wiring (humans have extra white matter)</li>
+<li>information in the environment (e.g. naked mole rats)</li>
+</ul></li>
+</ul>
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn1">
+<p><a href="">http://galton.uchicago.edu/~nbrunel/teaching/winter2014/</a> see 21-rate.pdf&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn2">
+<p>Kopec, Charles D, Jeffrey C Erlich, Bingni W Brunton, Karl Deisseroth, and Carlos D Brody. “Cortical and Subcortical Contributions to Short- Term Memory for Orienting Movements.” Neuron 88, no. 2 (October 2015): 367–377. doi:10.1016/j.neuron.2015.08.033.  &nbsp;<a href="#fnref2" rev="footnote">&#8617;</a></p>
+
+<p>Wang, Xiao-Jing. “Decision Making in Recurrent Neuronal Circuits.” Neuron 60, no. 2 (October 23, 2008): 215–34. doi:10.1016/j.neuron.2008.09.034.  </p>
+
+<p>Wong, Kong-Fatt, and Xiao-Jing Wang. “A Recurrent Network Mechanism of Time Integration in Perceptual Decisions.” Journal of Neuroscience 26, no. 4 (January 25, 2006): 1314–28. doi:10.1523/JNEUROSCI.3733-05.2006.</p>
+</li>
+
+<li id="fn3">
+<p><a href="http://charlesfrye.github.io/FoundationalNeuroscience/47/">Rate vs. temporal coding</a>&nbsp;<a href="#fnref3" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn4">
+<p>Dean HL, Hagan MA, Pesaran B. Only coherent spiking in posterior parietal cortex coordinates looking and reaching. Neuron. 2012. 73(4):829-841)&nbsp;<a href="#fnref4" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn5">
+<p>Delcomyn, F. “Neural Basis of Rhythmic Behavior in Animals.” Science 210, no. 4469 (October 31, 1980): 492–98. doi:10.1126/science.7423199.&nbsp;<a href="#fnref5" rev="footnote">&#8617;</a></p>
+
+<p>Marder, Eve, and Dirk Bucher. “Central Pattern Generators and the Control of Rhythmic Movements.” Current Biology 11, no. 23 (November 27, 2001): R986–96. doi:10.1016/S0960-9822(01)00581-4.</p>
+</li>
+
+<li id="fn6">
+<p><a href="">http://www.jneurosci.org/content/31/26/9658.short</a>&nbsp;<a href="#fnref6" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn7">
+<p>Maynard Smith J. 1982. Evolution and the Theory of Games. London: Cambridge Univ. Press&nbsp;<a href="#fnref7" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn8">
+<p><a href="">http://journal.frontiersin.org/article/10.3389/fnsyn.2010.00146/full</a>&nbsp;<a href="#fnref8" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn9">
+<p>Egorov, Alexei V., Bassam N. Hamam, Erik Fransén, Michael E. Hasselmo, and Angel A. Alonso. “Graded Persistent Activity in Entorhinal Cortex Neurons.” Nature 420, no. 6912 (November 14, 2002): 173–78. doi:10.1038/nature01171.&nbsp;<a href="#fnref9" rev="footnote">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+
+
+<script type="text/javascript">
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(\w+)\b/i,t=0,n=_self.Prism={util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e){var t=n.util.type(e);switch(t){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=n.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return n.util.clone(e)})}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var l=r[e];if(2==arguments.length){a=arguments[1];for(var i in a)a.hasOwnProperty(i)&&(l[i]=a[i]);return l}var o={};for(var s in l)if(l.hasOwnProperty(s)){if(s==t)for(var i in a)a.hasOwnProperty(i)&&(o[i]=a[i]);o[s]=l[s]}return n.languages.DFS(n.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,t,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(t.call(e,l,e[l],a||l),"Object"!==n.util.type(e[l])||r[n.util.objId(e[l])]?"Array"!==n.util.type(e[l])||r[n.util.objId(e[l])]||(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,l,r)):(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,null,r)))}},plugins:{},highlightAll:function(e,t){var a={callback:t,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",a);for(var r,l=a.elements||document.querySelectorAll(a.selector),i=0;r=l[i++];)n.highlightElement(r,e===!0,a.callback)},highlightElement:function(t,a,r){for(var l,i,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1],i=n.languages[l]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l);var s=t.textContent,u={element:t,language:l,grammar:i,code:s};if(!s||!i)return n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),a&&_self.Worker){var c=new Worker(n.filename);c.onmessage=function(e){u.highlightedCode=e.data,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},c.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=n.highlight(u.code,u.grammar,u.language),n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(t),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},highlight:function(e,t,r){var l=n.tokenize(e,t);return a.stringify(n.util.encode(l),r)},tokenize:function(e,t){var a=n.Token,r=[e],l=t.rest;if(l){for(var i in l)t[i]=l[i];delete t.rest}e:for(var i in t)if(t.hasOwnProperty(i)&&t[i]){var o=t[i];o="Array"===n.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],c=u.inside,g=!!u.lookbehind,h=!!u.greedy,f=0,d=u.alias;u=u.pattern||u;for(var p=0;p<r.length;p++){var m=r[p];if(r.length>e.length)break e;if(!(m instanceof a)){u.lastIndex=0;var y=u.exec(m),v=1;if(!y&&h&&p!=r.length-1){var b=r[p+1].matchedStr||r[p+1],k=m+b;if(p<r.length-2&&(k+=r[p+2].matchedStr||r[p+2]),u.lastIndex=0,y=u.exec(k),!y)continue;var w=y.index+(g?y[1].length:0);if(w>=m.length)continue;var _=y.index+y[0].length,P=m.length+b.length;if(v=3,P>=_){if(r[p+1].greedy)continue;v=2,k=k.slice(0,P)}m=k}if(y){g&&(f=y[1].length);var w=y.index+f,y=y[0].slice(f),_=w+y.length,S=m.slice(0,w),O=m.slice(_),j=[p,v];S&&j.push(S);var A=new a(i,c?n.tokenize(y,c):y,d,y,h);j.push(A),O&&j.push(O),Array.prototype.splice.apply(r,j)}}}}}return r},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.matchedStr=a||null,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var l={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if("comment"==l.type&&(l.attributes.spellcheck="true"),e.alias){var i="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}n.hooks.run("wrap",l);var o="";for(var s in l.attributes)o+=(o?" ":"")+s+'="'+(l.attributes[s]||"")+'"';return"<"+l.tag+' class="'+l.classes.join(" ")+'" '+o+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,l=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,document.addEventListener&&!r.hasAttribute("data-manual")&&document.addEventListener("DOMContentLoaded",n.highlightAll)),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+</script>
+
+<script type="text/javascript">
+!function(){"undefined"!=typeof self&&self.Prism&&self.document&&Prism.hooks.add("complete",function(e){if(e.code){var t=e.element.parentNode,s=/\s*\bline-numbers\b\s*/;if(t&&/pre/i.test(t.nodeName)&&(s.test(t.className)||s.test(e.element.className))&&!e.element.querySelector(".line-numbers-rows")){s.test(e.element.className)&&(e.element.className=e.element.className.replace(s,"")),s.test(t.className)||(t.className+=" line-numbers");var n,a=e.code.match(/\n(?!$)/g),l=a?a.length+1:1,m=new Array(l+1);m=m.join("<span></span>"),n=document.createElement("span"),n.className="line-numbers-rows",n.innerHTML=m,t.hasAttribute("data-start")&&(t.style.counterReset="linenumber "+(parseInt(t.getAttribute("data-start"),10)-1)),e.element.appendChild(n)}}})}();
+</script>
+
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+</body>
+
+</html>
