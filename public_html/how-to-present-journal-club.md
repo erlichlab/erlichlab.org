@@ -1,6 +1,6 @@
 ## Why do we have journal club
 
-Some reasons for of a journal club (not in order of importance):
+Some reasons for journal club (not in order of importance):
 
 1. Keep up with the literature
 2. Get exposed to classic papers
