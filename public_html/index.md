@@ -3,7 +3,6 @@
 
 + [Internal Links](https://int.erlichlab.org) </br> 
 + [Site at NYU-Shanghai](http://neuro.shanghai.nyu.edu/erlich_lab) </br>
-+ [CV](http://www.cns.nyu.edu/~jerlich/dl/jce_cv.pdf) </br>
 + [Publications](https://scholar.google.com.hk/citations?user=kI5EI3AAAAAJ&hl=en) </br>
 + [Twitter](https://twitter.com/erlichlab) </br>
 + [GitHub](https://github.com/erlichlab) </br>
@@ -36,7 +35,7 @@ might be relevant.
 
 ## Lab Members
 
-[**Jeffrey Erlich, PI**](http://neuro.shanghai.nyu.edu/erlich_lab)
+[**Jeffrey Erlich, PI**](http://neuro.shanghai.nyu.edu/erlich_lab), [CV](http://www.cns.nyu.edu/~jerlich/dl/jce_cv.pdf)
 
 ### Postdocs
 
