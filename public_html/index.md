@@ -56,19 +56,18 @@ Jingjie Li
 
 Anyu Fang\
 Yingkun Li\
-Ce Ma\
+Ce Ma
 
 ### Undergraduates
 
 Xirui Zhao
-
 
 ### Interns
 
 Shengjie Xu\
 Danielle John\
 Chenyu Xu\
-Jingjie Li\
+Jingjie Li
 
 ### Alumni
 
