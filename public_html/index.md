@@ -1,23 +1,29 @@
 # [[]{.octicon .octicon-link aria-hidden="true"}](#the-erlich-lab){#user-content-the-erlich-lab .anchor}The Erlich Lab
-<img src='media/logo.png' height=200 align=left>
-[Internal Links](https://int.erlichlab.org) </br> 
-[Site at NYU-Shanghai](http://neuro.shanghai.nyu.edu/erlich_lab) </br>
-[CV](http://www.cns.nyu.edu/~jerlich/dl/jce_cv.pdf) </br>
-[Publications](https://scholar.google.com.hk/citations?user=kI5EI3AAAAAJ&hl=en) </br>
-[Twitter](https://twitter.com/erlichlab) </br>
-[GitHub](https://github.com/erlichlab) </br>
+<img src='media/logo.png' height=180 align=right>
+
++ [Internal Links](https://int.erlichlab.org) </br> 
++ [Site at NYU-Shanghai](http://neuro.shanghai.nyu.edu/erlich_lab) </br>
++ [CV](http://www.cns.nyu.edu/~jerlich/dl/jce_cv.pdf) </br>
++ [Publications](https://scholar.google.com.hk/citations?user=kI5EI3AAAAAJ&hl=en) </br>
++ [Twitter](https://twitter.com/erlichlab) </br>
++ [GitHub](https://github.com/erlichlab) </br>
 
 ### About The Lab
 
 The Erlich Lab is generally interested in neural mechanisms underlying cognition. We currently have ongoing projects related to economic decision-making, integrating of value and perceptional information, and motor planning. We are located in Shanghai, China. Our animal facilities are hosted at the [East China Normal University campus near Zhongshan Park](http://english.ecnu.edu.cn/1810/list.htm), where we also run human neuroimaging studies using their fMRI facilities. There is a human behavioral research lab hosted at the [NYU Shanghai campus in Pudong](https://wp.nyu.edu/shbeel/).
 
-### Hiring Postdocs
+### Hiring
 
-We are seeking a postdoctoral fellow with experience in rodent behavior,
-electrophysiology and optogenetics. The fellow will work on a set of
+We are seeking a postdoctoral fellow or senior research staff with experience in rodent behavior,
+electrophysiology and optogenetics to work on a set of
 recently developed visuomotor tasks which involve complex visual
 perception, spatial cognition, learning, movement planning, updating and
-execution. [Details here](2018postdoc.pdf)
+execution. Send a cover letter and CV to apply@erlichlab.org
+
+We are seeking a postdoctoral fellow or senior research staff with experience in rodent behavior, pharmacology, molecular biology and genetics to work on a project investigating how stress 
+influences economic choice. Send a cover letter and CV to apply@erlichlab.org
+
+We are seeking to hire an animal technician. Send a cover letter and CV to apply@erlichlab.org
 
 ### Student Workers
 
