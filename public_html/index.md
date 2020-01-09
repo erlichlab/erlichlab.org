@@ -1,4 +1,4 @@
-# [[]{.octicon .octicon-link aria-hidden="true"}](#the-erlich-lab){#user-content-the-erlich-lab .anchor}The Erlich Lab
+# The Erlich Lab
 <img src='media/logo.png' height=180 align=right>
 
 + [Internal Links](https://int.erlichlab.org) </br> 
@@ -34,43 +34,43 @@ In the email include: your CV, your class schedule/availabe time, any
 relevant experience you have, and any other information that you think
 might be relevant.
 
-## [[]{.octicon .octicon-link aria-hidden="true"}](#lab-members){#user-content-lab-members .anchor}Lab Members
+## Lab Members
 
 [**Jeffrey Erlich, PI**](http://neuro.shanghai.nyu.edu/erlich_lab)
 
-### [[]{.octicon .octicon-link aria-hidden="true"}](#postdocs){#user-content-postdocs .anchor}Postdocs
+### Postdocs
 
 [Sylvain
 Dubroqua](https://research.shanghai.nyu.edu/centers-and-institutes/brain/people/sylvain-dubroqua)\
 [Jenya
 Lukinova](https://research.shanghai.nyu.edu/centers-and-institutes/brain/people/evgeniya-lukinova)
 
-### [[]{.octicon .octicon-link aria-hidden="true"}](#graduate-students){#user-content-graduate-students .anchor}Graduate Students
+### Graduate Students
 
 [Josh Mōller-Mara](http://jmm.io)\
 XiaoYue Zhu\
 Liujunli Li\
 Jingjie Li
 
-### [[]{.octicon .octicon-link aria-hidden="true"}](#staff){#user-content-staff .anchor}Staff
+### Staff
 
 Anyu Fang\
 Yingkun Li\
 Ce Ma\
 
-### [[]{.octicon .octicon-link aria-hidden="true"}](#undergraduates){#user-content-undergraduates .anchor}Undergraduates
+### Undergraduates
 
 Xirui Zhao
 
 
-### [[]{.octicon .octicon-link aria-hidden="true"}](#interns){#user-content-interns .anchor}Interns
+### Interns
 
 Shengjie Xu\
 Danielle John\
 Chenyu Xu\
 Jingjie Li\
 
-### [[]{.octicon .octicon-link aria-hidden="true"}](#alumni){#user-content-alumni .anchor}Alumni
+### Alumni
 
 [Hung-Tu Chen](https://github.com/transedward)\
 Xiangci Li\
@@ -90,7 +90,7 @@ Chloe Haddaway\
 Xinying Zhang\
 Brianna Lee Fu
 
-### [[]{.octicon .octicon-link aria-hidden="true"}](#collaborators){#user-content-collaborators .anchor}Collaborators
+### Collaborators
 
 [Steve Lehrer](http://post.queensu.ca/%7Elehrers/)\
 [Zheng \"ZZ\"
