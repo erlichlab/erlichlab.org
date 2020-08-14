@@ -39,6 +39,7 @@ might be relevant.
 
 ### Postdocs
 
+Chaofei Bao\
 [Sylvain
 Dubroqua](https://research.shanghai.nyu.edu/centers-and-institutes/brain/people/sylvain-dubroqua)\
 [Jenya
@@ -47,13 +48,12 @@ Lukinova](https://research.shanghai.nyu.edu/centers-and-institutes/brain/people/
 ### Graduate Students
 
 [Josh Mōller-Mara](http://jmm.io)\
-XiaoYue Zhu\
+Jingjie Li\
 Liujunli Li\
-Jingjie Li
+XiaoYue Zhu
 
 ### Staff
 
-Anyu Fang\
 Yingkun Li\
 Ce Ma
 
@@ -64,9 +64,7 @@ Xirui Zhao
 ### Interns
 
 Shengjie Xu\
-Danielle John\
-Chenyu Xu\
-Jingjie Li
+Xuan Wen
 
 ### Alumni
 
