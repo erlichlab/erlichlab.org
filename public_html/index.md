@@ -13,16 +13,7 @@ The Erlich Lab is generally interested in neural mechanisms underlying cognition
 
 ### Hiring
 
-We are seeking a postdoctoral fellow or senior research staff with experience in rodent behavior,
-electrophysiology and optogenetics to work on a set of
-recently developed visuomotor tasks which involve complex visual
-perception, spatial cognition, learning, movement planning, updating and
-execution. Send a cover letter and CV to apply@erlichlab.org
-
-We are seeking a postdoctoral fellow or senior research staff with experience in rodent behavior, pharmacology, molecular biology and genetics to work on a project investigating how stress 
-influences economic choice. Send a cover letter and CV to apply@erlichlab.org
-
-We are seeking to hire an animal technician. Send a cover letter and CV to apply@erlichlab.org
+The lab is not currently recruiting any students or staff. Try again next year!
 
 ### Student Workers
 
