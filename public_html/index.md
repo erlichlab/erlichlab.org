@@ -9,20 +9,14 @@
 
 ### About The Lab
 
-The Erlich Lab is generally interested in neural mechanisms underlying cognition. We currently have ongoing projects related to economic decision-making, integrating of value and perceptional information, and motor planning. We are located in Shanghai, China. Our animal facilities are hosted at the [East China Normal University campus near Zhongshan Park](http://english.ecnu.edu.cn/1810/list.htm), where we also run human neuroimaging studies using their fMRI facilities. There is a human behavioral research lab hosted at the [NYU Shanghai campus in Pudong](https://wp.nyu.edu/shbeel/).
+The Erlich Lab is generally interested in neural mechanisms underlying cognition. We currently have ongoing projects related to economic decision-making, integrating of value and perceptional information, spatial cognition and motor planning. We are located in Shanghai, China. Our animal facilities are hosted at the [East China Normal University campus near Zhongshan Park](http://english.ecnu.edu.cn/1810/list.htm), where we also run human neuroimaging studies using their fMRI facilities. There is a human behavioral research lab hosted at the [NYU Shanghai campus in Pudong](https://wp.nyu.edu/shbeel/).
+
+The lab will be moving to the [Sainsbury Wellcome Centre for Neural Circuits and Behaviour](https://www.sainsburywellcome.org/web/) in London, UK at the end of 2021. 
 
 ### Hiring
 
-The lab is not currently recruiting any students or staff. Try again next year!
+The lab at NYU Shanghai is ramping down, but the lab in London is ramping up. If you are interested in a post-doc, PhD, staff or internship please write to apply@erlichlab.org, including your CV and a cover letter explaining your interest.
 
-### Student Workers
-
-If you are interested in applying for a student worker position please
-send an email to
-[apply\@erlichlab.org](mailto:apply@erlichlab.org?subject=NYUSH%20student%20worker).
-In the email include: your CV, your class schedule/availabe time, any
-relevant experience you have, and any other information that you think
-might be relevant.
 
 ## Lab Members
 
@@ -30,11 +24,7 @@ might be relevant.
 
 ### Postdocs
 
-Chaofei Bao\
-[Sylvain
-Dubroqua](https://research.shanghai.nyu.edu/centers-and-institutes/brain/people/sylvain-dubroqua)\
-[Jenya
-Lukinova](https://research.shanghai.nyu.edu/centers-and-institutes/brain/people/evgeniya-lukinova)
+Chaofei Bao
 
 ### Graduate Students
 
@@ -46,35 +36,39 @@ XiaoYue Zhu
 ### Staff
 
 Yingkun Li\
-Nengneng Gao\
-Ce Ma
-
+<!-- 
 ### Undergraduates
 
-Xirui Zhao
 
 ### Interns
-
-Shengjie Xu\
-Xuan Wen
+ -->
 
 ### Alumni
 
+Xirui Zhao (now doing grad school in CS in USA)\
+Shengjie Xu (now doing PhD in Germany)\
+Xuan Wen (now finishing undergraduate in U Rochester)\
+Nengneng Gao (Took a teaching position)\
+Ce Ma (Graduate school in CS, in USA)\
+[Sylvain
+Dubroqua](https://research.shanghai.nyu.edu/centers-and-institutes/brain/people/sylvain-dubroqua)\
+[Jenya
+Lukinova](https://research.shanghai.nyu.edu/centers-and-institutes/brain/people/evgeniya-lukinova) (Now teaching at NYU Shanghai)\
 [Hung-Tu Chen](https://github.com/transedward)\
-Xiangci Li\
-Tomasz Merta\
-Bo Zhang\
-Lingqi Zhang\
+Xiangci Li (now doing PhD in CS in Texas)\
+Tomasz Merta (in Med School in Singapore)\
+Bo Zhang (Data Science at Apple)\
+Lingqi Zhang (PhD at U Penn)\
 Michael Lukiman\
 Yuyue Wang\
 Shine Zhou\
 Misya Erwin\
-Cequn Wang\
-Yidi Chen\
+Cequn Wang (Neuroscience tech company in Shanghai https://neuronlab.cn/)\
+Yidi Chen (Personal trainer in Shanghai)\
 Wanning Fu\
 Jonathan S. Lin\
 Stephen Mathew\
-Chloe Haddaway\
+Chloe Haddaway (Lab Manager at NYU Med School)\
 Xinying Zhang\
 Brianna Lee Fu
 
