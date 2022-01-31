@@ -2,6 +2,7 @@
 <img src='media/logo.png' height=180 align=right>
 
 + [Internal Links](https://int.erlichlab.org) </br> 
++ [Site at Sainsbury Wellcome Center, UCL](https://www.sainsburywellcome.org/web/groups/erlich-lab) </br>
 + [Site at NYU-Shanghai](http://neuro.shanghai.nyu.edu/erlich_lab) </br>
 + [Publications](https://scholar.google.com.hk/citations?user=kI5EI3AAAAAJ&hl=en) </br>
 + [Twitter](https://twitter.com/erlichlab) </br>
@@ -11,7 +12,7 @@
 
 The Erlich Lab is generally interested in neural mechanisms underlying cognition. We currently have ongoing projects related to economic decision-making, integrating of value and perceptional information, spatial cognition and motor planning. We are located in Shanghai, China. Our animal facilities are hosted at the [East China Normal University campus near Zhongshan Park](http://english.ecnu.edu.cn/1810/list.htm), where we also run human neuroimaging studies using their fMRI facilities. There is a human behavioral research lab hosted at the [NYU Shanghai campus in Pudong](https://wp.nyu.edu/shbeel/).
 
-The lab will be moving to the [Sainsbury Wellcome Centre for Neural Circuits and Behaviour](https://www.sainsburywellcome.org/web/) in London, UK at the end of 2021. 
+The lab at [Sainsbury Wellcome Centre for Neural Circuits and Behaviour](https://www.sainsburywellcome.org/web/) in London, UK is open and recruiting! 
 
 ### Hiring
 
@@ -36,10 +37,14 @@ XiaoYue Zhu
 ### Staff
 
 Yingkun Li\
-<!-- 
+
 ### Undergraduates
 
+Mingming Chen \
+Tate Pan \
+Shucheng Catalina Li\
 
+<!--
 ### Interns
  -->
 
@@ -74,6 +79,7 @@ Brianna Lee Fu
 
 ### Collaborators
 
+[Ann Duan](https://www.sainsburywellcome.org/web/groups/duan-lab)\
 [Steve Lehrer](http://post.queensu.ca/%7Elehrers/)\
 [Zheng \"ZZ\"
 Zhang](https://shanghai.nyu.edu/academics/faculty/directory/zheng-zhang)\
