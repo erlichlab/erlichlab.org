@@ -36,9 +36,9 @@ Chaofei Bao
 ### Graduate Students
 
 [Josh Mōller-Mara](http://jmm.io)\
-Jingjie Li\
+Jingjie Li (Transfered to SWC)\
 Liujunli Li\
-XiaoYue Zhu
+XiaoYue Zhu (Graduated in Jan 2022)
 
 ### Staff
 
