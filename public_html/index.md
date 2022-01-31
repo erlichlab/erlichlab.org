@@ -42,7 +42,7 @@ XiaoYue Zhu (Graduated in Jan 2022)
 
 ### Staff
 
-Yingkun Li\
+Yingkun Li
 
 ### Undergraduates
 
