@@ -24,6 +24,8 @@ The lab at [Sainsbury Wellcome Centre for Neural Circuits and Behaviour](https:/
 
 The lab at NYU Shanghai is ramping down, but the lab in London is ramping up. If you are interested in a post-doc, PhD, staff or internship please write to apply@erlichlab.org, including your CV and a cover letter explaining your interest.
 
+We are specifically looking for people with a strong programming / machine learning background for positions that will be a combination of research (computational neuroscience) and software engineering (building and maintaining our automated behavioral training facility at SWC).
+
 
 ## Lab Members
 
