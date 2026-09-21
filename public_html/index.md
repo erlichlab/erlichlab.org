@@ -27,11 +27,11 @@ PhD students should apply through the [SWC application process](https://www.sain
 
 ### Postdocs
 
-Chaofei Bao
+Chaofei Bao\
+Chenguang Li
 
 ### Graduate Students
 
-[Josh Moller-Mara](http://jmm.io)\
 Jingjie Li\
 Margarida Pexirra\
 Cong Sun\
@@ -44,7 +44,6 @@ Rebecca Ball
 
 ### Masters Students
 
-Ariel Xu
 <!--
 ### Interns
 -->
@@ -59,8 +58,10 @@ Ariel Xu
 
 ### Alumni 
 
-Note: 
 
+Margot Tirole\
+Ariel Xu (Now a PhD student at Champalimaud)\
+[Josh Moller-Mara](http://jmm.io)\
 Grayson Yin\
 Liujunli Li (Graduate in Jan 2023, then a postdoc at ECNU)\
 XiaoYue Zhu (Graduated in Jan 2022, then a data scientist in New York)\
