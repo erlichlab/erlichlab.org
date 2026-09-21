@@ -5,8 +5,12 @@ The Erlich Lab
 + [Site at Sainsbury Wellcome Center, UCL](https://www.sainsburywellcome.org/web/groups/erlich-lab) </br>
 + [Publications](https://scholar.google.com.hk/citations?user=kI5EI3AAAAAJ&hl=en) </br>
 + [Mastodon](https://qoto.org/@jerlich)
-+ [Twitter](https://twitter.com/erlichlab) </br>
++ [Bluesky](https://bsky.app/profile/jerlich.com) </br>
++ [Substack](https://jerlich.substack.com) </br>
++ [GitLab](https://gitlab.com/sainsbury-wellcome-centre/delab) </br>
 + [GitHub](https://github.com/erlichlab) </br>
+
+
 
 ### About The Lab
 
