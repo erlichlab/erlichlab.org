@@ -28,11 +28,11 @@ PhD students should apply through the [SWC application process](https://www.sain
 ### Postdocs
 
 Chaofei Bao\
-Chenguang Li
+Chenguang Li\
+Jingjie Li
 
 ### Graduate Students
 
-Jingjie Li\
 Margarida Pexirra\
 Cong Sun\
 Daniel Yang\
